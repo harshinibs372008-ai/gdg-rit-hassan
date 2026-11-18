@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" width="280" height="80" aria-label="Official Logo Placeholder: Rajeev Institute of Technology">
+  <defs>
+    <linearGradient id="ritGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="276" height="76" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <g transform="translate(14, 12)">
+    <circle cx="28" cy="28" r="26" fill="url(#ritGrad)"/>
+    <path d="M28 14 L36 28 L28 42 L20 28 Z" fill="#f8fafc" opacity="0.9"/>
+    <path d="M28 20 L32 28 L28 36 L24 28 Z" fill="#fbbf24"/>
+    <circle cx="28" cy="12" r="3" fill="#ef4444"/>
+    <rect x="12" y="44" width="32" height="4" rx="2" fill="#94a3b8"/>
+  </g>
+  <text x="76" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#0f172a" letter-spacing="-0.01em">RAJEEV INSTITUTE</text>
+  <text x="76" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#1e3a8a" letter-spacing="0.04em">OF TECHNOLOGY</text>
+  <text x="76" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="500" fill="#64748b">HASSAN • VTU AFFILIATED</text>
+  <rect x="76" y="60" width="168" height="12" rx="3" fill="#f1f5f9"/>
+  <text x="80" y="69" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="7" font-weight="600" fill="#475569" letter-spacing="0.02em">[OFFICIAL ASSET PLACEHOLDER: RIT]</text>
+</svg>
