@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GDG on Campus — Rajeev Institute of Technology, Hassan | Google Developer Groups</title>
+  <meta name="description" content="Official website for GDG on Campus at Rajeev Institute of Technology, Hassan, organized in collaboration with the Department of Computer Science & Engineering. Discover hackathons, study jams, Solution Challenge projects, and developer communities.">
+  <meta name="theme-color" content="#4285F4">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="assets/logos/gdg-logo.svg" type="image/svg+xml">
+</head>
+<body>
+  <!-- Accessible Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- =========================================================================
+       REQUIRED BRANDING BAR (Three Official Logos)
+       Rajeev Institute of Technology, CSE Department, GDG on Campus RIT Hassan
+       ========================================================================= -->
+  <aside class="institutional-bar" role="banner" aria-label="Official Institutional Affiliations">
+    <div class="container branding-row">
+      <div class="logo-wrapper">
+        <img src="assets/logos/rit-logo.svg" alt="Rajeev Institute of Technology Official Logo" class="official-logo" width="220" height="60" loading="eager">
+      </div>
+      <div class="logo-divider" aria-hidden="true"></div>
+      <div class="logo-wrapper">
+        <img src="assets/logos/cse-logo.svg" alt="Department of Computer Science and Engineering Official Logo" class="official-logo" width="220" height="60" loading="eager">
+      </div>
+      <div class="logo-divider" aria-hidden="true"></div>
+      <div class="logo-wrapper">
+        <img src="assets/logos/gdg-logo.svg" alt="GDG on Campus - RIT Hassan Official Logo" class="official-logo" width="220" height="60" loading="eager">
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Navigation Bar -->
+  <header class="site-header" id="navbar">
+    <div class="container header-container">
+      <a href="#" class="gdg-brand" aria-label="GDG on Campus RIT Hassan Home">
+        <div class="google-brackets" aria-hidden="true">
+          <span class="b-red">&lt;</span>
+          <span class="b-blue">/</span>
+          <span class="b-green">&gt;</span>
+        </div>
+        <div class="brand-text-group">
+          <span class="gdg-title">GDG on Campus</span>
+          <span class="gdg-sub">RIT Hassan • CSE Dept</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#tracks" class="nav-link">Tech Tracks</a></li>
+          <li><a href="#events" class="nav-link">Events &amp; HackRIT</a></li>
+          <li><a href="#solution-challenge" class="nav-link">Solution Challenge</a></li>
+          <li><a href="#dev-quiz" class="nav-link">Skill Quiz</a></li>
+          <li><a href="#join" class="nav-link">Join Chapter</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Controls -->
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle dark/light theme" title="Switch color mode">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+
+        <a href="#events" class="btn btn-google-blue btn-sm header-cta">RSVP HackRIT</a>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-toggle" class="icon-btn mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-drawer">
+          <svg class="hamburger-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+          <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <nav id="mobile-drawer" class="mobile-drawer" aria-label="Mobile Navigation" hidden>
+      <ul class="mobile-nav-list">
+        <li><a href="#about" class="mobile-nav-link">About Chapter</a></li>
+        <li><a href="#tracks" class="mobile-nav-link">Google Tech Tracks</a></li>
+        <li><a href="#events" class="mobile-nav-link">Events &amp; HackRIT 2026</a></li>
+        <li><a href="#solution-challenge" class="mobile-nav-link">Solution Challenge Projects</a></li>
+        <li><a href="#dev-quiz" class="mobile-nav-link">Google Dev Skill Quiz</a></li>
+        <li><a href="#join" class="mobile-nav-link">Join GDG RIT Hassan</a></li>
+      </ul>
+      <div class="mobile-drawer-cta">
+        <a href="#join" class="btn btn-google-blue btn-block">Join GDG Community Free</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-layout">
+        <div class="hero-content">
+          <div class="hero-affiliation-badge">
+            <span class="pulse-indicator"></span>
+            Rajeev Institute of Technology, Hassan • CSE Department Collaboration
+          </div>
+          <h1 class="hero-title">
+            Connect. Learn. <span class="gradient-text">Grow with Google Technologies</span> at RIT.
+          </h1>
+          <p class="hero-desc">
+            Welcome to <strong>GDG on Campus – RIT Hassan</strong>, the official university developer community powered by Google Developers and the Department of Computer Science &amp; Engineering. Build scalable software, compete in national hackathons, and accelerate your engineering career.
+          </p>
+          <div class="hero-buttons">
+            <a href="#events" class="btn btn-google-blue btn-lg">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              Register for HackRIT 2026
+            </a>
+            <a href="#join" class="btn btn-outline btn-lg">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7.5" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
+              Join Chapter
+            </a>
+          </div>
+
+          <!-- Hero Metrics -->
+          <div class="hero-metrics">
+            <div class="metric-box">
+              <span class="m-val">850+</span>
+              <span class="m-lbl">Active RIT Members</span>
+            </div>
+            <div class="metric-line"></div>
+            <div class="metric-box">
+              <span class="m-val">24+</span>
+              <span class="m-lbl">Hands-on Workshops</span>
+            </div>
+            <div class="metric-line"></div>
+            <div class="metric-box">
+              <span class="m-val">₹50K</span>
+              <span class="m-lbl">Hackathon Prize Pool</span>
+            </div>
+            <div class="metric-line"></div>
+            <div class="metric-box">
+              <span class="m-val">100%</span>
+              <span class="m-lbl">Free &amp; Open Access</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Card Preview: Live Event Spotlight -->
+        <div class="hero-preview-col" aria-hidden="true">
+          <div class="flagship-hero-card">
+            <div class="card-chip-row">
+              <span class="flagship-chip">🚀 FLAGSHIP HACKATHON</span>
+              <span class="live-tag" id="hero-countdown-tag">4d 18h to start</span>
+            </div>
+            <h3 class="flagship-name">HackRIT 2026: 36-Hr National Innovation Sprint</h3>
+            <p class="flagship-summary">
+              Hosted at the APJ Abdul Kalam Auditorium, RIT Hassan. Build prototypes addressing UN Sustainable Development Goals using Google Cloud, Gemini API, and Android.
+            </p>
+            <div class="flagship-details-box">
+              <div class="detail-row"><span>📅 <strong>Dates:</strong> Dec 12 - 14, 2026</span></div>
+              <div class="detail-row"><span>📍 <strong>Venue:</strong> RIT Campus, Hassan</span></div>
+              <div class="detail-row"><span>👥 <strong>Team:</strong> 2 to 4 Student Developers</span></div>
+            </div>
+            <a href="#events" class="btn btn-google-blue btn-block">Claim Free Student Pass &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Mission Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="sub-heading">Empowering Engineers</span>
+          <h2 class="main-heading">Bridging Academic Theory with Real-World Industry Practice</h2>
+          <p class="section-desc">
+            GDG on Campus at Rajeev Institute of Technology, Hassan, is an inclusive student developer group supported by the Department of Computer Science &amp; Engineering. We help students bridge the gap between classroom theory and production engineering.
+          </p>
+        </div>
+
+        <div class="values-grid">
+          <div class="value-card border-blue">
+            <div class="value-icon bg-blue-subtle">💻</div>
+            <h3 class="value-title">Build Practical Solutions</h3>
+            <p class="value-desc">Move beyond theoretical exams by building real-world software prototypes using Flutter, Firebase, Google Cloud, and Modern Web Standards.</p>
+          </div>
+          <div class="value-card border-red">
+            <div class="value-icon bg-red-subtle">🌐</div>
+            <h3 class="value-title">Google Solution Challenge</h3>
+            <p class="value-desc">Receive mentorship from faculty and Google Developer Experts to submit projects to the global Solution Challenge solving UN Sustainable Development Goals.</p>
+          </div>
+          <div class="value-card border-yellow">
+            <div class="value-icon bg-yellow-subtle">🚀</div>
+            <h3 class="value-title">Career &amp; Placement Readiness</h3>
+            <p class="value-desc">Master technical interview coding rounds, open-source Git workflows, dynamic programming, and system design with senior peer leads.</p>
+          </div>
+          <div class="value-card border-green">
+            <div class="value-icon bg-green-subtle">🤝</div>
+            <h3 class="value-title">Open &amp; Inclusive Community</h3>
+            <p class="value-desc">Open to students of all engineering departments at RIT Hassan—whether you wrote your first line of code today or deploy microservices to production.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Tracks Explorer -->
+    <section class="section tracks-section bg-subtle" id="tracks">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="sub-heading">Learning Pathways</span>
+          <h2 class="main-heading">Google Technology Focus Areas</h2>
+          <p class="section-desc">Explore hands-on tracks curated by GDG on Campus RIT Hassan student leads.</p>
+        </div>
+
+        <div class="tracks-grid">
+          <div class="track-card">
+            <div class="track-header">
+              <span class="track-icon">🤖</span>
+              <span class="track-tag tag-blue">AI &amp; Machine Learning</span>
+            </div>
+            <h3 class="track-title">Gemini API &amp; Vertex AI</h3>
+            <p class="track-text">Build multimodal applications integrating Google Gemini 1.5/2.0 models, prompt engineering, LangChain, and TensorFlow on Google Cloud.</p>
+            <div class="track-footer"><span>4 Bootcamps Scheduled</span></div>
+          </div>
+
+          <div class="track-card">
+            <div class="track-header">
+              <span class="track-icon">☁️</span>
+              <span class="track-tag tag-green">Cloud Computing</span>
+            </div>
+            <h3 class="track-title">Google Cloud Platform &amp; DevOps</h3>
+            <p class="track-text">Master containerization with Docker and Kubernetes on GKE, Cloud Run serverless deployments, and earn Google Cloud Study Jam badges.</p>
+            <div class="track-footer"><span>Free Cloud Credits Provided</span></div>
+          </div>
+
+          <div class="track-card">
+            <div class="track-header">
+              <span class="track-icon">📱</span>
+              <span class="track-tag tag-red">Mobile Engineering</span>
+            </div>
+            <h3 class="track-title">Android Compose &amp; Flutter</h3>
+            <p class="track-text">Develop cross-platform, responsive native applications for Android and iOS using modern Jetpack Compose, Kotlin, Dart, and Firebase backends.</p>
+            <div class="track-footer"><span>Hands-on Code Labs</span></div>
+          </div>
+
+          <div class="track-card">
+            <div class="track-header">
+              <span class="track-icon">🌐</span>
+              <span class="track-tag tag-yellow">Modern Web</span>
+            </div>
+            <h3 class="track-title">Web Standards &amp; Chrome DevTools</h3>
+            <p class="track-text">Master progressive web apps (PWAs), WebAssembly, accessible UI architectures, and Core Web Vitals performance optimization.</p>
+            <div class="track-footer"><span>Hackathon Ready</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         FEATURE 1: GDG Event Hub & Digital Pass RSVP Generator
+         Countdown, Calendar, Filterable Grid, and Ticket Generator
+         ========================================================================= -->
+    <section class="section events-section" id="events">
+      <div class="container">
+        <div class="section-header">
+          <span class="sub-heading">Feature 01: Events &amp; RSVP</span>
+          <h2 class="main-heading">GDG Campus Event Schedule &amp; Digital RSVP</h2>
+          <p class="section-desc">Register for upcoming hackathons, study jams, and developer meetups organized with the Department of CSE.</p>
+        </div>
+
+        <!-- Hackathon Countdown Banner -->
+        <div class="hackathon-live-banner">
+          <div class="banner-info">
+            <span class="banner-pill">🏆 Flagship National Event</span>
+            <h3 class="banner-heading">HackRIT 2026: 36-Hour Innovation Challenge</h3>
+            <p class="banner-body">Collaborate with fellow engineers to build real-world software prototypes. Cash awards, industry certificates, and recruitment mentorship included.</p>
+            <div class="banner-meta-items">
+              <span>📅 Dec 12 - 14, 2026</span>
+              <span>📍 APJ Abdul Kalam Auditorium, RIT Hassan</span>
+              <span>⚡ Free Registration</span>
+            </div>
+          </div>
+          <div class="banner-countdown">
+            <span class="countdown-title">Hackathon Starts In:</span>
+            <div class="timer-display" id="hackathon-timer">
+              <div class="time-cube"><span class="t-digit" id="t-days">04</span><span class="t-label">Days</span></div>
+              <div class="time-cube"><span class="t-digit" id="t-hours">18</span><span class="t-label">Hours</span></div>
+              <div class="time-cube"><span class="t-digit" id="t-mins">42</span><span class="t-label">Mins</span></div>
+              <div class="time-cube"><span class="t-digit" id="t-secs">10</span><span class="t-label">Secs</span></div>
+            </div>
+            <button class="btn btn-google-blue btn-block rsvp-btn" data-event="HackRIT 2026">Register Free Attendee Pass</button>
+          </div>
+        </div>
+
+        <!-- Event Filter Toolbar -->
+        <div class="events-filter-bar" id="events-tabs" role="tablist">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Events (6)</button>
+          <button class="filter-btn" data-filter="hackathon" role="tab" aria-selected="false">🏆 Hackathons</button>
+          <button class="filter-btn" data-filter="cloud" role="tab" aria-selected="false">☁️ Cloud &amp; GenAI</button>
+          <button class="filter-btn" data-filter="mobile" role="tab" aria-selected="false">📱 Android &amp; Flutter</button>
+          <button class="filter-btn" data-filter="web" role="tab" aria-selected="false">🌐 Web &amp; Git</button>
+        </div>
+
+        <!-- Events Grid -->
+        <div class="events-grid" id="events-container">
+          <!-- Dynamically populated via gdg-app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         FEATURE 2: Google Solution Challenge Showcase & Project Submission
+         UN SDG Projects, Live Upvote/Star counter, Submission Modal
+         ========================================================================= -->
+    <section class="section solution-section bg-subtle" id="solution-challenge">
+      <div class="container">
+        <div class="section-header-row">
+          <div>
+            <span class="sub-heading">Feature 02: Innovation Hub</span>
+            <h2 class="main-heading">Google Solution Challenge Showcase</h2>
+            <p class="section-desc">RIT engineering students solving the United Nations 17 Sustainable Development Goals using Google developer technologies.</p>
+          </div>
+          <button class="btn btn-google-blue" id="btn-open-project-modal">+ Submit Solution Project</button>
+        </div>
+
+        <!-- Search & Filter Controls -->
+        <div class="solution-toolbar">
+          <div class="search-box">
+            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text" id="project-search" class="search-input" placeholder="Search by project name, tech stack (e.g. Flutter, Firebase), student name or USN..." aria-label="Search Solution Challenge projects">
+            <button id="project-clear-btn" class="clear-input-btn" aria-label="Clear search" hidden>&times;</button>
+          </div>
+
+          <div class="sdg-filter-chips" id="sdg-filters">
+            <button class="sdg-chip active" data-sdg="all">All Goals</button>
+            <button class="sdg-chip" data-sdg="sdg2">Zero Hunger (SDG 2)</button>
+            <button class="sdg-chip" data-sdg="sdg3">Good Health (SDG 3)</button>
+            <button class="sdg-chip" data-sdg="sdg4">Quality Education (SDG 4)</button>
+            <button class="sdg-chip" data-sdg="sdg11">Sustainable Cities (SDG 11)</button>
+          </div>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="solution-grid" id="solution-projects-grid">
+          <!-- Dynamically populated via gdg-app.js -->
+        </div>
+
+        <!-- Empty State -->
+        <div class="empty-state" id="solution-empty-state" hidden>
+          <div class="empty-icon">📂</div>
+          <h3>No matching projects found</h3>
+          <p>Try searching for a different keyword or reset the category filters.</p>
+          <button id="btn-reset-solution" class="btn btn-outline btn-sm">Reset Filters</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         FEATURE 3: Google Tech Skill Quiz & Digital Badge Generator
+         Test knowledge in GenAI, Android, Cloud, and Web
+         ========================================================================= -->
+    <section class="section quiz-section" id="dev-quiz">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="sub-heading">Feature 03: Skills Assessment</span>
+          <h2 class="main-heading">Google Tech Developer Skill Challenge</h2>
+          <p class="section-desc">Test your understanding of modern Google technologies and unlock a verified digital badge from GDG on Campus RIT Hassan.</p>
+        </div>
+
+        <div class="quiz-card-wrapper">
+          <div class="quiz-card-top">
+            <div class="q-meta">
+              <span class="q-tag" id="q-domain-tag">Google Cloud &amp; AI</span>
+              <span class="q-progress-text" id="q-count-text">Question 1 of 5</span>
+            </div>
+            <div class="q-timer">
+              <span>⏱️</span>
+              <span id="quiz-countdown-timer">03:30</span>
+            </div>
+          </div>
+
+          <!-- Active Question Container -->
+          <div class="quiz-question-box" id="active-question-container">
+            <h3 class="q-title" id="q-text">Loading question...</h3>
+            <div class="q-options" id="q-options-list" role="radiogroup">
+              <!-- Dynamically rendered -->
+            </div>
+            <div class="q-explanation" id="q-explanation-box" hidden></div>
+          </div>
+
+          <!-- Quiz Navigation -->
+          <div class="quiz-card-bottom">
+            <button id="btn-quiz-prev" class="btn btn-outline btn-sm" disabled>&larr; Previous</button>
+            <div class="quiz-indicators" id="quiz-indicators-row">
+              <!-- Dot indicators -->
+            </div>
+            <button id="btn-quiz-next" class="btn btn-google-blue btn-sm">Next Question &rarr;</button>
+          </div>
+
+          <!-- Score Summary View (Hidden initially) -->
+          <div class="quiz-result-view" id="quiz-result-card" hidden>
+            <div class="badge-graphic">🎖️</div>
+            <h3 class="result-heading">Assessment Completed!</h3>
+            <div class="result-score" id="result-score-val">5 / 5</div>
+            <p class="result-summary" id="result-summary-text">You have mastered key Google developer fundamentals!</p>
+            <div class="result-badge-card" id="digital-dev-badge">
+              <div class="badge-inner">
+                <span class="badge-chip">GDG on Campus • RIT Hassan</span>
+                <strong class="badge-title">CERTIFIED DEVELOPER EXPLORER</strong>
+                <span class="badge-date" id="badge-awarded-date">Awarded Nov 2026</span>
+              </div>
+            </div>
+            <div class="result-actions">
+              <button id="btn-restart-quiz" class="btn btn-outline btn-sm">Retake Quiz</button>
+              <a href="#join" class="btn btn-google-blue btn-sm">Join GDG RIT Chapter</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         FEATURE 4: Join the Chapter / Membership Onboarding Portal
+         Interactive Student Developer Registration
+         ========================================================================= -->
+    <section class="section join-section bg-subtle" id="join">
+      <div class="container">
+        <div class="join-layout">
+          <div class="join-info">
+            <span class="sub-heading">Feature 04: Community Gateway</span>
+            <h2 class="main-heading">Become an Official Member of GDG on Campus RIT Hassan</h2>
+            <p class="join-desc">
+              Membership is 100% free for all students of Rajeev Institute of Technology, Hassan across all engineering semesters and departments.
+            </p>
+            <div class="perks-list">
+              <div class="perk-item">
+                <span class="perk-check">✓</span>
+                <div><strong>Free Google Cloud Credits:</strong> Access hands-on labs on Google Cloud Skills Boost.</div>
+              </div>
+              <div class="perk-item">
+                <span class="perk-check">✓</span>
+                <div><strong>Hackathon Fast-Track:</strong> Priority team entry to HackRIT and regional GDG hackathons.</div>
+              </div>
+              <div class="perk-item">
+                <span class="perk-check">✓</span>
+                <div><strong>Alumni &amp; Industry Mentorship:</strong> Direct project reviews and placement prep from senior software engineers.</div>
+              </div>
+              <div class="perk-item">
+                <span class="perk-check">✓</span>
+                <div><strong>Official GDG Swag &amp; Certificates:</strong> Earn digital badges, stickers, and completion certificates.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Join Form Card -->
+          <div class="join-form-card">
+            <h3 class="form-heading">Student Member Registration</h3>
+            <p class="form-sub">Fill out the details below to generate your official Chapter Member Pass.</p>
+
+            <form id="membership-form" novalidate>
+              <div class="form-group">
+                <label for="mem-name">Full Name <span class="req">*</span></label>
+                <input type="text" id="mem-name" class="form-control" placeholder="e.g. Sahana Murthy" required minlength="2">
+                <span class="err-msg" id="err-mem-name">Please enter your full name.</span>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="mem-usn">VTU USN <span class="req">*</span></label>
+                  <input type="text" id="mem-usn" class="form-control" placeholder="e.g. 4RA22CS072" required pattern="^[0-9][A-Za-z]{2}[0-9]{2}[A-Za-z]{2}[0-9]{3}$">
+                  <span class="err-msg" id="err-mem-usn">Enter a valid VTU USN (e.g. 4RA22CS072).</span>
+                </div>
+                <div class="form-group">
+                  <label for="mem-branch">Branch <span class="req">*</span></label>
+                  <select id="mem-branch" class="form-control" required>
+                    <option value="CSE" selected>Computer Science &amp; Engg</option>
+                    <option value="ISE">Information Science &amp; Engg</option>
+                    <option value="AIML">AI &amp; Machine Learning</option>
+                    <option value="ECE">Electronics &amp; Comm Engg</option>
+                    <option value="Other">Other Branch</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="mem-email">Email Address <span class="req">*</span></label>
+                <input type="email" id="mem-email" class="form-control" placeholder="sahana.murthy@gmail.com" required>
+                <span class="err-msg" id="err-mem-email">Please enter a valid email address.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="mem-track">Primary Technology Track of Interest <span class="req">*</span></label>
+                <select id="mem-track" class="form-control" required>
+                  <option value="AI & Machine Learning (Gemini, TensorFlow)" selected>AI &amp; Machine Learning (Gemini, TensorFlow)</option>
+                  <option value="Google Cloud Platform & DevOps">Google Cloud Platform &amp; DevOps</option>
+                  <option value="Android Development (Kotlin, Compose)">Android Development (Kotlin, Compose)</option>
+                  <option value="Flutter Cross-Platform Apps">Flutter Cross-Platform Apps</option>
+                  <option value="Modern Web Development (React, PWAs)">Modern Web Development (React, PWAs)</option>
+                </select>
+              </div>
+
+              <button type="submit" class="btn btn-google-blue btn-block" id="btn-submit-membership">
+                Generate Official Member ID &amp; Join
+              </button>
+            </form>
+
+            <!-- Membership Confirmation Card (Revealed upon submission) -->
+            <div class="member-pass-result" id="member-pass-view" hidden>
+              <div class="pass-chip">OFFICIAL GDG MEMBER</div>
+              <h4 class="pass-member-name" id="card-member-name">Sahana Murthy</h4>
+              <div class="pass-details-grid">
+                <div><span>USN:</span><strong id="card-member-usn">4RA22CS072</strong></div>
+                <div><span>Branch:</span><strong id="card-member-branch">CSE • RIT Hassan</strong></div>
+                <div><span>Track:</span><strong id="card-member-track">AI &amp; Machine Learning</strong></div>
+                <div><span>Member ID:</span><strong id="card-member-id" style="color: #4285F4;">#GDG-RIT-2026-9142</strong></div>
+              </div>
+              <p style="font-size: 0.8rem; margin-top: 10px; opacity: 0.85;">Welcome to the chapter! Your registration has been saved locally.</p>
+              <button class="btn btn-outline btn-block btn-sm" id="btn-download-member-pass" style="margin-top: 10px;">Download Member Pass (.txt)</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq-section" id="faq">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="sub-heading">Frequently Asked Questions</span>
+          <h2 class="main-heading">Everything You Need to Know</h2>
+          <p class="section-desc">Got questions about GDG on Campus, events, or student project submissions?</p>
+        </div>
+
+        <div class="faq-accordion" id="faq-accordion">
+          <div class="faq-item">
+            <button class="faq-toggle" aria-expanded="false" aria-controls="faq-ans-1">
+              <span>What is GDG on Campus and how is it connected to RIT Hassan?</span>
+              <svg class="chevron-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-content" id="faq-ans-1" hidden>
+              <p>GDG on Campus (Google Developer Groups on Campus) is a university-based community group supported by Google Developers. At Rajeev Institute of Technology, Hassan, the chapter operates under the Department of Computer Science &amp; Engineering to bridge peer learning with industry practices.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-toggle" aria-expanded="false" aria-controls="faq-ans-2">
+              <span>Is there any fee to attend workshops, study jams, or hackathons?</span>
+              <svg class="chevron-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-content" id="faq-ans-2" hidden>
+              <p>No. All events, bootcamps, study jams, and hackathons hosted by GDG on Campus RIT Hassan are completely free of cost for all engineering students.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-toggle" aria-expanded="false" aria-controls="faq-ans-3">
+              <span>What is the Google Solution Challenge?</span>
+              <svg class="chevron-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-content" id="faq-ans-3" hidden>
+              <p>The annual Google Solution Challenge invites university students around the world to build prototypes that solve one or more of the United Nations 17 Sustainable Development Goals using Google products like Flutter, Firebase, Google Cloud, or TensorFlow. Finalists receive global mentoring and funding opportunities from Google.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-toggle" aria-expanded="false" aria-controls="faq-ans-4">
+              <span>Where are the official logo files stored in the project?</span>
+              <svg class="chevron-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-content" id="faq-ans-4" hidden>
+              <p>The official logos for Rajeev Institute of Technology, the Department of Computer Science &amp; Engineering, and GDG on Campus RIT Hassan are located in <code>assets/logos/</code> as <code>rit-logo.svg</code>, <code>cse-logo.svg</code>, and <code>gdg-logo.svg</code>. The website’s CSS maintains strict proportional aspect ratios so that replacing these files with official institutional SVGs or PNGs automatically renders cleanly without distortion.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       FOOTER: Institutional Address, Affiliations, and Links
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <div class="gdg-brand">
+          <div class="google-brackets">
+            <span class="b-red">&lt;</span>
+            <span class="b-blue">/</span>
+            <span class="b-green">&gt;</span>
+          </div>
+          <div class="brand-text-group">
+            <span class="gdg-title">GDG on Campus</span>
+            <span class="gdg-sub">RIT Hassan • CSE Dept</span>
+          </div>
+        </div>
+        <p class="footer-tagline">
+          Empowering student developers at Rajeev Institute of Technology, Hassan through open technology education, hackathons, and Google Developer mentorship.
+        </p>
+        <div class="address-box">
+          <span>📍 Rajeev Institute of Technology, Plot No. 1-D, Growth Center, Industrial Area, B-M Bypass Road, Hassan, Karnataka – 573201</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="col-title">Navigation</h4>
+        <ul class="col-links">
+          <li><a href="#about">About the Chapter</a></li>
+          <li><a href="#tracks">Learning Tracks</a></li>
+          <li><a href="#events">HackRIT 2026 &amp; Events</a></li>
+          <li><a href="#solution-challenge">Solution Challenge</a></li>
+          <li><a href="#dev-quiz">Skill Quiz &amp; Badges</a></li>
+          <li><a href="#join">Membership Application</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="col-title">Google Resources</h4>
+        <ul class="col-links">
+          <li><a href="https://developers.google.com/community/gdg" target="_blank" rel="noopener noreferrer">Google Developer Groups &rarr;</a></li>
+          <li><a href="https://developers.google.com/community/gdsc-solution-challenge" target="_blank" rel="noopener noreferrer">Solution Challenge &rarr;</a></li>
+          <li><a href="https://cloud.google.com/innovators" target="_blank" rel="noopener noreferrer">Google Cloud Innovators &rarr;</a></li>
+          <li><a href="https://developer.android.com/" target="_blank" rel="noopener noreferrer">Android Developers &rarr;</a></li>
+        </ul>
+      </div>
+
+      <!-- Partner Entities Column -->
+      <div class="footer-col">
+        <h4 class="col-title">Institutional Partners</h4>
+        <div class="footer-logos">
+          <div class="footer-logo-card">
+            <img src="assets/logos/rit-logo.svg" alt="Rajeev Institute of Technology Official Logo" class="f-logo" width="180" height="50">
+          </div>
+          <div class="footer-logo-card">
+            <img src="assets/logos/cse-logo.svg" alt="Department of Computer Science & Engineering Official Logo" class="f-logo" width="180" height="50">
+          </div>
+          <div class="footer-logo-card">
+            <img src="assets/logos/gdg-logo.svg" alt="GDG on Campus RIT Hassan Official Logo" class="f-logo" width="180" height="50">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="container footer-bottom">
+      <p>&copy; 2026 GDG on Campus — Rajeev Institute of Technology, Hassan • Department of Computer Science &amp; Engineering. Released under the MIT License.</p>
+      <div class="footer-bottom-links">
+        <a href="#main-content">Back to Top &uarr;</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       MODALS: RSVP Ticket Modal & Submit Solution Challenge Project Modal
+       ========================================================================= -->
+  <!-- 1. RSVP Ticket Modal -->
+  <div class="modal-overlay" id="rsvp-modal" role="dialog" aria-modal="true" aria-labelledby="rsvp-title" hidden>
+    <div class="modal-box">
+      <div class="modal-head">
+        <div>
+          <span class="modal-sub">GDG on Campus Event Registration</span>
+          <h3 class="modal-h3" id="rsvp-title">HackRIT 2026 Ticket</h3>
+        </div>
+        <button class="modal-close" id="btn-close-rsvp" aria-label="Close dialog">&times;</button>
+      </div>
+
+      <div class="modal-content-area">
+        <form id="event-rsvp-form" novalidate>
+          <div class="form-group">
+            <label for="rsvp-full-name">Full Name <span class="req">*</span></label>
+            <input type="text" id="rsvp-full-name" class="form-control" placeholder="e.g. Ananya Rao" required minlength="2">
+            <span class="err-msg" id="err-rsvp-name">Please provide your full name.</span>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="rsvp-vtu-usn">VTU USN <span class="req">*</span></label>
+              <input type="text" id="rsvp-vtu-usn" class="form-control" placeholder="e.g. 4RA22CS045" required pattern="^[0-9][A-Za-z]{2}[0-9]{2}[A-Za-z]{2}[0-9]{3}$">
+              <span class="err-msg" id="err-rsvp-usn">Enter a valid VTU USN (e.g. 4RA22CS045).</span>
+            </div>
+            <div class="form-group">
+              <label for="rsvp-branch-select">Branch <span class="req">*</span></label>
+              <select id="rsvp-branch-select" class="form-control" required>
+                <option value="CSE" selected>Computer Science &amp; Engg</option>
+                <option value="ISE">Information Science &amp; Engg</option>
+                <option value="AIML">AI &amp; Machine Learning</option>
+                <option value="ECE">Electronics &amp; Comm Engg</option>
+                <option value="Other">Other Branch</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="rsvp-email-addr">Email Address <span class="req">*</span></label>
+            <input type="email" id="rsvp-email-addr" class="form-control" placeholder="ananya.rao@gmail.com" required>
+            <span class="err-msg" id="err-rsvp-email">Please enter a valid email.</span>
+          </div>
+
+          <button type="submit" class="btn btn-google-blue btn-block" id="btn-generate-ticket">Generate Verified Developer Pass</button>
+        </form>
+
+        <!-- Digital Ticket Output -->
+        <div class="digital-badge-ticket" id="generated-ticket-view" hidden>
+          <div class="ticket-top">
+            <span class="badge-brand">GDG ON CAMPUS • RIT HASSAN</span>
+            <span class="badge-status">VERIFIED PASS</span>
+          </div>
+          <div class="ticket-name" id="t-event-name">HackRIT 2026</div>
+          <div class="ticket-details-box">
+            <div><span>Attendee</span><strong id="t-attendee-name">Ananya Rao</strong></div>
+            <div><span>USN</span><strong id="t-attendee-usn">4RA22CS045</strong></div>
+            <div><span>Branch</span><strong id="t-attendee-branch">CSE • RIT Hassan</strong></div>
+            <div><span>Venue</span><strong>APJ Abdul Kalam Auditorium</strong></div>
+          </div>
+          <div class="ticket-strip">
+            <span id="t-pass-code">PASS #GDG-RIT-8842</span>
+            <span>QR: [AUTHENTICATED]</span>
+          </div>
+          <button class="btn btn-outline btn-block btn-sm" id="btn-download-pass" style="margin-top: 14px;">Download Digital Pass (.txt)</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Submit Solution Project Modal -->
+  <div class="modal-overlay" id="solution-modal" role="dialog" aria-modal="true" aria-labelledby="solution-title" hidden>
+    <div class="modal-box">
+      <div class="modal-head">
+        <div>
+          <span class="modal-sub">Google Solution Challenge</span>
+          <h3 class="modal-h3" id="solution-title">Submit Student Innovation Project</h3>
+        </div>
+        <button class="modal-close" id="btn-close-solution" aria-label="Close dialog">&times;</button>
+      </div>
+
+      <div class="modal-content-area">
+        <form id="solution-project-form" novalidate>
+          <div class="form-group">
+            <label for="sp-title">Project Title <span class="req">*</span></label>
+            <input type="text" id="sp-title" class="form-control" placeholder="e.g. AgroPulse: AI Crop Disease Classifier" required minlength="4">
+            <span class="err-msg" id="err-sp-title">Title must be at least 4 characters.</span>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="sp-sdg">UN Sustainable Development Goal <span class="req">*</span></label>
+              <select id="sp-sdg" class="form-control" required>
+                <option value="sdg2" selected>SDG 2: Zero Hunger</option>
+                <option value="sdg3">SDG 3: Good Health &amp; Well-being</option>
+                <option value="sdg4">SDG 4: Quality Education</option>
+                <option value="sdg11">SDG 11: Sustainable Cities &amp; Communities</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="sp-lead">Team Leader &amp; USN <span class="req">*</span></label>
+              <input type="text" id="sp-lead" class="form-control" placeholder="e.g. Praveen K (4RA22CS062)" required minlength="4">
+              <span class="err-msg" id="err-sp-lead">Please specify team lead and USN.</span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="sp-stack">Google Technologies Used <span class="req">*</span></label>
+            <input type="text" id="sp-stack" class="form-control" placeholder="e.g. Flutter, Firebase, Google Cloud, TensorFlow Lite" required>
+            <span class="err-msg" id="err-sp-stack">Please list the Google technologies used.</span>
+          </div>
+
+          <div class="form-group">
+            <label for="sp-desc">Abstract &amp; Real-World Problem Solved <span class="req">*</span></label>
+            <textarea id="sp-desc" class="form-control" rows="3" placeholder="Describe the problem, solution, and UN SDG impact..." required minlength="20"></textarea>
+            <span class="err-msg" id="err-sp-desc">Abstract must be at least 20 characters.</span>
+          </div>
+
+          <div class="form-group">
+            <label for="sp-github">GitHub Repository Link <span class="req">*</span></label>
+            <input type="url" id="sp-github" class="form-control" placeholder="https://github.com/username/project" required>
+            <span class="err-msg" id="err-sp-github">Please enter a valid GitHub URL.</span>
+          </div>
+
+          <button type="submit" class="btn btn-google-blue btn-block">Publish to Solution Showcase</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Wrapper -->
+  <div class="toast-hub" id="toast-hub" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Scripts -->
+  <script src="js/gdg-app.js"></script>
+</body>
+</html>
